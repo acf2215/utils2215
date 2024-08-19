@@ -4,6 +4,7 @@ import { Conditionals } from "./Conditionals";
 import { ConnectionManagement } from "./ConnectionManagement";
 import { ContentNegotiation } from "./ContentNegotiation";
 import { Controls } from "./Controls";
+import { Cookies } from "./Cookies";
 
 export type HttpHeaders = 
   | Authentication 
@@ -12,4 +13,5 @@ export type HttpHeaders =
   | ConnectionManagement
   | ContentNegotiation
   | Controls
+  | Cookies
   | (string & {}); 
