@@ -3,6 +3,7 @@ import { Caching } from "./Caching";
 import { Conditionals } from "./Conditionals";
 import { ConnectionManagement } from "./ConnectionManagement";
 import { ContentNegotiation } from "./ContentNegotiation";
+import { Controls } from "./Controls";
 
 export type HttpHeaders = 
   | Authentication 
@@ -10,4 +11,5 @@ export type HttpHeaders =
   | Conditionals
   | ConnectionManagement
   | ContentNegotiation
+  | Controls
   | (string & {}); 
