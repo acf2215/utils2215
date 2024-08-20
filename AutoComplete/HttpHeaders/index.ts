@@ -5,6 +5,7 @@ import { ConnectionManagement } from "./ConnectionManagement";
 import { ContentNegotiation } from "./ContentNegotiation";
 import { Controls } from "./Controls";
 import { Cookies } from "./Cookies";
+import { CORS } from "./CORS";
 
 export type HttpHeaders = 
   | Authentication 
@@ -14,4 +15,5 @@ export type HttpHeaders =
   | ContentNegotiation
   | Controls
   | Cookies
+  | CORS
   | (string & {}); 
